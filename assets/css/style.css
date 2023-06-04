@@ -483,3 +483,16 @@ form button {
     text-align: center !important;
   }
 }
+
+#recursos .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#recursos .container iframe {
+  width: 100%;
+  max-width: 89vh;
+  height: 50vh;
+}
