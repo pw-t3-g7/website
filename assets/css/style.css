@@ -462,10 +462,24 @@ form button {
   form button {
     max-width: 30vh;
   }
+
+  #autores .container {
+    max-width: 80vh;
+  }
 }
 
 @media only screen and (max-width: 991px) {
   form button {
     max-width: 100vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #autores .container {
+    max-width: 50vh;
+  }
+
+  #autores .paragraph-dark {
+    text-align: center !important;
   }
 }
